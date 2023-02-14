@@ -1,0 +1,341 @@
+@media screen and (max-width:1310px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .header-navigation {
+        display: none;
+    }
+
+    .header-logo {
+        padding-top: 19px;
+        padding-bottom: 16px;
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width:1310px) {
+    .hero {
+        background-image: url('../img/background-room.jpg');
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-container {
+        max-width: 600px;
+        margin-bottom: 151px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .container-text {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 500px;
+        width: auto;
+        margin-bottom: 25px;
+        margin-right: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        background-image: url('../img/background-room-mobile.jpg');
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .pointers {
+        display: none;
+    }
+
+    .completed-projects {
+        margin-left: 0px;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .completed-projects-title {
+        margin-top: 31px;
+        text-align: center;
+    }
+
+    .completed-projects-text {
+        font-size: 13px;
+        line-height: 21px;
+        width: auto;
+        max-width: 500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .completed-projects-pictures-mobile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-switch {
+        display: flex;
+        justify-content: space-between;
+        margin: -174px 13px 149px 13px;
+    }
+
+    .project-switch:hover {
+        cursor: pointer;
+    }
+
+    .completed-projects-block-item {
+        width: 226px;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .online-control {
+        background-color: #131313;
+    }
+
+    .online-control-content {
+        padding-left: 0px;
+    }
+
+    .online-control-head {
+        margin-top: -1px;
+        padding-top: 100px;
+    }
+
+    .videocamera-icons {
+        margin-top: 15px;
+    }
+
+    .online-control-video {
+        margin-top: 37px;
+    }
+
+    .online-control-video:after {
+        width: 452px;
+        height: 250px;
+    }
+
+    .image-video {
+        width: 452px;
+        height: 250px;
+    }
+
+    .image-video-play {
+        width: 100px;
+        height: 100px;
+        margin-top: -178px;
+        margin-left: -49px;
+    }
+
+    .online-control-video_underline {
+        margin-top: 48px;
+    }
+
+    .online-control-text_block {
+        width: 390px;
+        font-size: 13px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 12px;
+        margin-bottom: 71px;
+    }
+
+    .personal-information {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .personal-information-text {
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 325px;
+    }
+
+    .name-block,
+    .phone-block {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+
+    .control-input-text {
+        width: 300px;
+        border: 0;
+        border-bottom: 1px solid rgb(120 120 120);
+        padding-bottom: 5px;
+        background-color: #131313;
+        margin-left: -27px;
+    }
+
+    .control-input-text::placeholder {
+        color: #FFFFFF;
+    }
+
+    .control-checkbox-text {
+        color: #FFFFFF;
+    }
+
+    .online-control-content .button {
+        margin-top: 55px;
+        width: 323px;
+        height: 49px;
+        justify-content: center;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .types-of-repair {
+        margin-top: -24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .types-of-repair-top {
+        padding-top: 100px;
+    }
+
+    .repair-block {
+        margin-bottom: 55px;
+    }
+
+    .types-of-repair-blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 36px;
+        margin-left: auto;
+    }
+
+    .repair-block {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .design-phone-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .design-title {
+        margin: 50px auto 33px auto;
+        text-align: center;
+    }
+
+    .design-example-photo {
+        width: 452px;
+    }
+
+    .design-switch {
+        display: flex;
+        justify-content: space-between;
+        margin: -200px 9px 115px 12px;
+    }
+
+    .design-switch:hover {
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .questions-container {
+        padding-left: 0px;
+    }
+
+    .questions-request {
+        background-color: #181818;
+        margin-top: -134px;
+    }
+
+    .questions-request-content {
+        max-width: 883px;
+        margin-top: 0px;
+        position: static;
+        padding-top: 132px;
+    }
+
+    .questions-request-input-text {
+        width: 300px;
+        margin-left: 0px;
+        line-height: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .questions-request-name-phone {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .question {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width:1310px) {
+    .contacts {
+        position: static;
+        background-image: none;
+        background-color: #181818;
+        margin-top: -1px;
+    }
+
+    .contacts-content {
+        margin-top: 0px;
+    }
+
+    .map-mobile {
+        width: 427px;
+        margin: 50px auto 0px auto;
+    }
+
+    .contacts-head {
+        padding-top: 37px;
+        justify-content: center;
+    }
+
+    .social-media img {
+        width: 40px;
+    }
+
+    .contacts:after {
+        content: none;
+    }
+}
